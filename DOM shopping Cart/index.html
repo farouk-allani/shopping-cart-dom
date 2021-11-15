@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="title">
+          <h2>Shopping Cart</h2>
+          <img src="Cart.svg" alt="Cart" style="height: 128px" />
+        </div>
+        <!--------Start Article 1------- -->
+        <div class="article1">
+          <div class="article1-head">
+            <span class="like-btn1"></span>
+            <button class="btn-delete1">X</button>
+          </div>
+          <h1>Nike</h1>
+          <img class="shoes1" src="shoes1.jpg" alt="shoes1" />
+          <span id="value1" style="padding: 10px"> 1</span>
+          <div class="btns-art1">
+            <button class="btn increase1">+</button>
+            <button class="btn decrease1">-</button>
+          </div>
+          <div class="price1">Price:<span id="price1">100</span>DT</div>
+        </div>
+        <!------ End Article 1 ------------->
+        <!------ Start Article 2-------- -->
+        <div class="article2">
+          <div class="article1-head">
+            <span class="like-btn2"></span>
+            <button class="btn-delete2">X</button>
+          </div>
+          <h1>Adidas</h1>
+          <img class="shoes1" src="shoes2.jpg" alt="shoes2" />
+          <span id="value2" style="padding: 10px">1</span>
+          <div class="btns-art1">
+            <button class="btn increase2">+</button>
+            <button class="btn decrease2">-</button>
+          </div>
+          <div class="price2">Price :<span id="price2">150</span>DT</div>
+        </div>
+        <!-------- End Article 2------ -->
+        <!------- Start Article 3-------->
+        <div class="article3">
+          <div class="article1-head">
+            <span class="like-btn3"></span>
+            <button class="btn-delete3">X</button>
+          </div>
+          <h1>Clarks</h1>
+          <img class="shoes1" src="shoes3.jpg" alt="shoes3" />
+          <span id="value3" style="padding: 10px">1</span>
+          <div class="btns-art1">
+            <button class="btn increase3">+</button>
+            <button class="btn decrease3">-</button>
+          </div>
+          <div class="price3">Price:<span id="price3">200</span>DT</div>
+        </div>
+        <!---------- End article 3 ------->
+      </div>
+      <!------------- Total Price ---- -->
+      <h1 style="padding-top: 20px">Total Price : <span id="total"></span></h1>
+    </main>
+    <!--------- Footer ------ -->
+    <footer style="bottom: 0; position: absolute">
+      Copyright &copy; 2021 Farouk Inc.
+    </footer>
+    <!------- End Footer ----- -->
+    <!-- -----Sript injection ---- -->
+    <script src="script.js"></script>
+    <!----- End Script Injectio --- -->
+  </body>
+</html>
